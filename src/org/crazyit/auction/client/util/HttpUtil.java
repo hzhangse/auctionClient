@@ -21,8 +21,8 @@ import org.apache.http.util.EntityUtils;
 public class HttpUtil {
 	// 创建HttpClient对象
 	public static HttpClient httpClient = new DefaultHttpClient();
-	public static final String BASE_URL = "http://anctionapply.jd-app.com/android/";
-
+	//public static final String BASE_URL = "http://anctionapply.jd-app.com/android/";
+	public static final String BASE_URL = "http://192.168.1.101:8080/MyAuction/android/";
 	/**
 	 * 
 	 * @param url

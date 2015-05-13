@@ -18,10 +18,32 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="@dimen/title_padding"
-            android:text="@string/welcome"
+            android:text="@string/registuser"
             android:textSize="@dimen/label_font_size" />
     </TableRow>
     <!-- 输入用户名的行 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_email"
+            android:textSize="@dimen/label_font_size" />
+
+    
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" >
+
+            <requestFocus />
+        </EditText>
+        
+    </TableRow>
 
     <TableRow>
 
@@ -35,8 +57,7 @@
         <EditText
             android:id="@+id/userEditText"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="tomcat" />
+            android:layout_height="wrap_content" />
     </TableRow>
     <!-- 输入密码的行 -->
 
@@ -53,8 +74,27 @@
             android:id="@+id/pwdEditText"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:password="true"
-            android:text="tomcat" />
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/confirmpwdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_pass_confirm"
+            android:textSize="@dimen/label_font_size" />
+
+        <EditText
+            android:id="@+id/confirmpwdEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:password="true"
+            android:text="" />
     </TableRow>
     <!-- 定义登录、取消按钮的行 -->
 
@@ -65,15 +105,11 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/bnLogin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/login" />
-		<Button
             android:id="@+id/bnregist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/regist" />
+
         <Button
             android:id="@+id/bnCancel"
             android:layout_width="wrap_content"
