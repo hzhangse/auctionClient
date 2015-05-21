@@ -3,9 +3,10 @@ package com.train.auction.client;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.crazyit.auction.client.util.DialogUtil;
-import org.crazyit.auction.client.util.HttpUtil;
 import org.json.JSONObject;
+
+import com.train.auction.client.util.DialogUtil;
+import com.train.auction.client.util.HttpUtil;
 
 import android.app.Activity;
 import android.content.Intent;

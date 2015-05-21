@@ -1,13 +1,13 @@
 package com.train.auction.client;
 
 
-import org.crazyit.auction.client.util.DialogUtil;
-import org.crazyit.auction.client.util.HttpUtil;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.train.auction.client.R;
+import com.train.auction.client.util.DialogUtil;
+import com.train.auction.client.util.HttpUtil;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,10 +1,10 @@
 package com.train.auction.client;
 
-import org.crazyit.auction.client.util.DialogUtil;
-import org.crazyit.auction.client.util.HttpUtil;
 import org.json.JSONArray;
 
 import com.train.auction.client.R;
+import com.train.auction.client.util.DialogUtil;
+import com.train.auction.client.util.HttpUtil;
 
 import android.app.Activity;
 import android.content.Intent;

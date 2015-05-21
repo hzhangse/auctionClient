@@ -36,7 +36,7 @@
             android:id="@+id/userEditText"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="tomcat" />
+            android:text="" />
     </TableRow>
     <!-- 输入密码的行 -->
 
@@ -54,7 +54,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:password="true"
-            android:text="tomcat" />
+            android:text="" />
     </TableRow>
     <!-- 定义登录、取消按钮的行 -->
 
